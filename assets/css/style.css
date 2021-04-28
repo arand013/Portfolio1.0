@@ -27,19 +27,17 @@ header{
 header h1 {
     font-family: initial;
     font-weight: bold;
-    font-size: 36px;
     color: var(--primary-color);
     margin: 0;
     background-color: var(--theme-color);
   }
   header a {
     text-decoration: underline;
-    font-synthesis: weight;
     color: var(--primary-color);
   }
   
   header nav {
-    margin: 7px 0;
+    margin: 7px 7px;
   }
   
   header nav ul {
@@ -66,4 +64,12 @@ header h1 {
     color: rgb(207, 213, 216);
     border-radius: 15px;
     text-shadow: none;
+  }
+
+  .contact {
+    text-align: left;
+  }
+.contacts p {
+
+    text-align: center;
   }
