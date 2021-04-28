@@ -1,3 +1,69 @@
 *{
 
 }
+:root {
+    --primary-color-text: rgba(255, 255, 255, 0.911); 
+    --secondary-color: rgb(51, 66, 80);
+    --theme-color: rgb(103, 196, 196);
+    
+}
+
+header{
+    background-color: var(--secondary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../assets/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    font-family: initial;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    background-color: var(--theme-color);
+  }
+  header a {
+    text-decoration: underline;
+    font-synthesis: weight;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-family: initial;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--theme-color);
+    border-radius: 15px;
+    color: var(--theme-color);
+
+  }
+
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: rgb(207, 213, 216);
+    border-radius: 15px;
+    text-shadow: none;
+  }
