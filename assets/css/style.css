@@ -1,43 +1,47 @@
 *{
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 :root {
     --primary-color-text: rgba(255, 255, 255, 0.911); 
     --secondary-color: rgb(51, 66, 80);
-    --theme-color: rgb(103, 196, 196);
+    --theme-color: rgb(173, 216, 250);
     
 }
 
 header{
     background-color: var(--secondary-color);
-    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    border: 0;
     background-image: url(../assets/images/hero-bg.jpg);
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
     z-index: 9999;
+    padding: 15px 15px 15px 0px;
 }
 
 header h1 {
-    font-family: initial;
+    font-family: garamond;
     font-weight: bold;
     color: var(--primary-color);
-    margin: 0;
+    padding: 10px 10px 10px 0px;
+    text-align: left;
     background-color: var(--theme-color);
   }
   header a {
-    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--primary-color);
+    border-bottom: 3px solid;
+    text-decoration: none;
   }
   
   header nav {
-    margin: 7px 7px;
+    margin: 7px 7px -15px 7px;
   }
   
   header nav ul {
@@ -50,7 +54,7 @@ header h1 {
   
   header nav ul li a {
     padding: 10px 15px;
-    font-family: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--theme-color);
@@ -66,10 +70,71 @@ header h1 {
     text-shadow: none;
   }
 
-  .contact {
-    text-align: left;
+  .subtitle {
+    font-family: garamond; 
+    padding: 45px 20px;
+    background-image: url(../images/sky.jpg);
+    text-align: right;
+    text-align: end;
   }
-.contacts p {
+  .subtitle p {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: right;
+    background-color: var(--theme-color);
+    display: inline-block;
+  }
+body {
+  background-color: rgb(231, 231, 233);
+}
 
-    text-align: center;
+  .section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-right: 3px solid;
+    font-size: 35px;
+    margin: 10px;
+    width: 150;
+    color:var(--secondary-color);
   }
+
+  .about, .project{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+
+  .about p {
+    flex: 1 12%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+ /* Contact me */ 
+
+
+ .contact {
+  text-decoration: none;  
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .info {
+  justify-content: space-between;
+ }
+ .info ul {
+    padding-top: 40px;
+    flex: 1 12%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .info ul li a {
+  padding: 45px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 1.55vw;
+ }
