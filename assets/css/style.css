@@ -10,7 +10,7 @@
     --theme-color: rgb(173, 216, 250);
 }
 body {
-  background-color: rgb(231, 231, 233);
+  background-color: rgb(207, 207, 207);
 }
 /* Header Start */ 
 
@@ -93,6 +93,7 @@ header nav ul {
 /* Body Start */
 
   .section-title {
+    justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-right: 3px solid;
     font-size: 35px;
@@ -103,8 +104,8 @@ header nav ul {
 
   .about, .project{ 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
+    align-content: center;
+    justify-content: flex-start;
   }
 
   .about p {
@@ -117,7 +118,7 @@ header nav ul {
  /* Contact me Start */ 
 
 
- .contact {
+ .div1 {
   text-decoration: none;  
   list-style: none;
   display: flex;
@@ -144,36 +145,64 @@ header nav ul {
  /* Contact me End  */
  /* Work/Projects Start */ 
  
- .works {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  margin: 15px;
-  
+ .work {
+   display: flex;
+   object-fit: cover;
+   flex-wrap: wrap-reverse;
  }
- .works > .run{
+ .sections {
+  display: flex;
+  object-fit: fill;
+  margin: none;
+  list-style: none;
+ }
+ .big {
+  flex-grow: 1;
+  height: 300px;
+  object-fit: fill;
+  border: 7px solid var(--theme-color);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+ }
+
+ .small {
   border: 7px solid var(--theme-color);
   text-align: left;
   font-size: 15px;
   font-family: garamond ;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  width: max-content;
 } 
 
-.works > .run img {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-
+.big a img {
+  background-color: rgba(255,255,255, 0.3);
+  opacity: 0.6;
+  width: 75%;
+  height: 50%;
+}
+  
+.small a img {
+  height: 150px;
+  object-fit: cover;
+  width: 450px;
+  background-color: rgba(255,255,255, 0.3);
+  opacity: 0.6;
+ 
+}
+.small img:hover, .big a img:hover {
+  opacity: 1.0;
 }
 
-.works h3, .works h4 {
+h3, h4 {
   background-color: var(--theme-color);
+  border-bottom: 10px;
+  margin: 5px;
 }
-.works h3 {
+h3 {
   font-family: garamond ;
   font-size: 25px;
-  margin: 0px;
 }
 
-.works > h4 {
-  margin: 0px;
+h4 {
   font-family: Georgia, serif ;
   font-size: 15px;
 }
