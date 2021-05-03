@@ -1,6 +1,6 @@
 # Portfolio
 
-[link to Horiseon!] https://arand013.github.io/Portfolio/
+[link to Portfolio!] https://arand013.github.io/Portfolio/
 
 
 * GIVEN I need to sample a potential employee's previous work
