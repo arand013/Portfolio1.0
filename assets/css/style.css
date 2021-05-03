@@ -227,7 +227,6 @@ h4 {
 
   header h1 {
     width: 100%;
-    text-align: center;
   }
 
   header nav ul {
@@ -253,7 +252,7 @@ h4 {
 .sections {
   padding: 30px 15px;
 }
-.step h3 {
+p {
   flex: 1 100%;
   text-align: center;
 }
@@ -269,6 +268,9 @@ h4 {
   margin-right: 0;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+footer nav ul li a {
+  font-size: 20px;
 }
 }
 @media screen and (max-width: 575px) {

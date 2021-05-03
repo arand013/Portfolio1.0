@@ -22,10 +22,12 @@
  In this html and css structure an online portfolio was created. For the reason to outline
  projects, information and contact info is publshed within this link.
  However, several issues arose when aiming to re-size certain pictures.
- Reference commits on git hub.
+ Commits on git hub.
 
  1. Created an html
  2. Created and linked CSS 
  3. added CSS styles, flexbox models, media queries, alt attributes etc..
  4. opaque style, hover and click applications were inlcuded
- 5. -CSS removed and added repetitive code
+ 5. -CSS removed repetitive code
+ 6. Comments on code
+
