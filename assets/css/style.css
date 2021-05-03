@@ -218,7 +218,6 @@ h4 {
   header {
     padding-bottom: 0;
     justify-content: center;
-    position: relative
   }
 
   header h1 {
@@ -276,7 +275,7 @@ h4 {
 }
 
 .info {
-  width: 100%;
+ font-size: 35px;
 }
 
 .works{
