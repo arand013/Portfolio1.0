@@ -1,5 +1,8 @@
 # Portfolio
-
+// Fix Format
+// Begin React Format
+// Start and Re-Fresh creativity in software portfolio
+ 
 [link to Portfolio!] https://arand013.github.io/Portfolio/
 
 
